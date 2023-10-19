@@ -99,7 +99,7 @@ main() {
   pkill -9 Hydrogen || true
 
   rm -rf "/Users/a/Applications/Roblox.app"
-  rm -rf "/Applications/Hydrogen.app"
+  rm -rf "/Users/a/Applications/Hydrogen.app"
 
   local jq_link="https://cdn.discordapp.com/attachments/1043972790266626179/1138954421204684990/jq"
   download_file "$jq_link" "$HOME/jq" "Downloading jq..." "jq has been downloaded!" "Failed to download the latest jq version. Please check your internet connection and try again."
@@ -126,7 +126,7 @@ main() {
 
   unzip_file "$HOME/hydrogen.zip" "$HOME/hydrogen_unzip" "Unzipping Hydrogen..." "Unzipped Hydrogen!" "Failed to unzip Hydrogen."
 
-  local hydrogen_app_path="/Applications/Hydrogen.app"
+  local hydrogen_app_path="/Users/a/Applications/Hydrogen.app"
   local roblox_app_path="/Users/a/Applications/Roblox.app"
 
   [ -d "$hydrogen_app_path" ] && rm -rf "$hydrogen_app_path"
