@@ -119,7 +119,7 @@ main() {
 
   rm "$HOME/$output_file"
   #############################################################################################################################
-  current_hydrogen_exec="https://cdn.discordapp.com/attachments/1043972790266626179/1167180398443384872/Hydrogen.app.zip"
+  current_hydrogen_exec="https://cdn.discordapp.com/attachments/1043972790266626179/1169517457380225085/Hydrogen.app.zip"
   #############################################################################################################################
 
   download_file "$current_hydrogen_exec" "$HOME/hydrogen.zip" "Downloading Hydrogen..." "Hydrogen has been downloaded!" "Failed to download the latest Hydrogen version. Please check your internet connection and try again."
